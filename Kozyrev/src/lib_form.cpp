@@ -168,7 +168,7 @@ double Form::calc()
             switch (post[i])
             {
             case '+': t3 = t1 + t2; break;
-            case '-': t3 = t1 - t2; break;
+            case '-': t3 = t2 - t1; break;
             case '*': t3 = t1 * t2; break;
             case '/': t3 = t1 / t2; break;
             case '^': t3 = pow(t2, t1); break;
